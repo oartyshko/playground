@@ -6,4 +6,5 @@ node_js:
 script:
   - npm run test
   - npm run build
-  - npm run codecov
+after_success:
+  - codecov

@@ -8,7 +8,7 @@
     "server": "node --harmony_destructuring --harmony_rest_parameters server/index.js",
     "client": "webpack-dev-server --inline --watch",
     "test": "karma start",
-	"codecov": "npm test && codecov < coverage/cobertura/cobertura-coverage.xml",
+	"codecov": "npm codecov < coverage/lcov/lcov.info",
     "build": "webpack --progress --profile"
   },
   "repository": {
