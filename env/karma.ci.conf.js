@@ -23,7 +23,7 @@ module.exports = (config) => {
             reporters: [
                 {type: 'text-summary'},
                 {type: 'html'},
-                {type: 'cobertura', subdir: 'cobertura'}
+                {type: 'lcov', subdir: 'lcov'}
             ]
         },
 
